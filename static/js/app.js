@@ -40,7 +40,7 @@ function updateFilters() {
       filters[updateId] = updateValue;
     }
     else {
-      delete filters[udpateId];
+      delete filters[updateId];
     }
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
@@ -48,7 +48,7 @@ function updateFilters() {
 
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
-  
+
     // 8. Set the filtered data to the tableData.
     var filteredData = tableData;
   
